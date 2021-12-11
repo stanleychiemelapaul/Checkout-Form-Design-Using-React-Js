@@ -1,7 +1,5 @@
 How it looks on Laptop
-
 https://user-images.githubusercontent.com/42416676/145674852-3a264fbe-c862-4538-82ed-53a96cc65d88.png
-
 
 
 In the project directory, Open the package.json file and run
