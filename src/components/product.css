@@ -1,0 +1,107 @@
+.img3{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    left: 175px;
+    margin: 32px 0px;
+}
+.backbtn-img{
+    position: absolute;
+    left: 145px;
+    margin-top: 10px;
+}
+.backbtntext{
+    position: absolute;
+    width: 47px;
+    height: 40px;
+    left: 165px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #1A1F36;
+    margin: 0px 11px;
+    align-content: center;
+}
+
+.img4{
+    position: relative;
+    width: 245.99px;
+    height: 245.99px;
+    left: calc(50% - 445.99px/2 + 0.4px);
+    top: calc(50% - 445.99px/2 + 0.4px);
+    border-radius: 20px;
+    align-content: center;
+}
+
+.productname{
+    position: static;
+    width: 57px;
+    height: 24px;
+    left: 165px;
+    top: 0px;
+    align-content: center;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #697386;
+    margin: 40px 0px 5px 0px;
+
+} 
+.currency{
+    position: static;
+    width: 23px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #1A1F36;
+}
+.amt{
+    position: static;
+    width: 97px;
+    height: 44px;
+    left: 31px;
+    top: 0px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #1A1F36;
+}
+
+@media screen and (max-width: 969px) {
+    .img3{
+        left: 115px;
+    }
+    .backbtn-img{
+        left: 115px;
+    }
+    .backbtntext{
+        left: 130px;
+    }
+}
+@media screen and (min-width: 970px) {
+    .img3{
+        left: 175px;
+    }
+    .backbtn-img{
+        left: 145px;
+    }
+    .backbtntext{
+        left: 165px;
+    }
+}

@@ -1,0 +1,37 @@
+footer{
+    position: absolute;
+    width: 263px;
+    height: 22px;
+    left: 205px;
+    top: 531px;
+
+}
+.host, .terms, .privacy{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #8792A2;
+}
+
+.divider{
+    color: #8792A2;
+    font-size: 16px;
+    line-height: 22px;
+}
+@media screen and (max-width: 997px) {
+    footer{
+        position: static;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
